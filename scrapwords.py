@@ -12,12 +12,12 @@ Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def scrapwords():
-    starting_url = input(B + 'Enter the starting URL: ')
-    word_length = int(input(B +
+    starting_url = input(C + 'Enter the starting URL: ')
+    word_length = int(input(C +
                             'Enter the word min length to search for: '))
-    max_depth = int(input(B +
+    max_depth = int(input(C +
                     'Enter the maximum depth to crawl: '))
-    output_file = input(B + "Output file location:  ")
+    output_file = input(C + "Output file location:  ")
     
     links_to_crawl = [(starting_url, 1)]
     while links_to_crawl:

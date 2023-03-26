@@ -68,14 +68,13 @@ art = '''
 
 
 def passwordrecon():
-    print(Y + art)
+    print(R + art)
     print(Y + banner)
-    print(R + x)
-    print(B + """Tools available
+    print(C + """Tools available
           
-            1.Scrape Websites for words
-            2.Create Local Phone Number Password Lists
-            3.Remove Duplicate words on wordlist
+            1.Scrape Websites for Words
+            2.Create Local Phone Number Wordlist
+            3.Remove Duplicates On Wordlist
             4.Crunch a Wordlist Together
             5.Common Wordlist Modifications1!
             6.Leet Transformations
@@ -99,7 +98,7 @@ def passwordrecon():
     elif inp == "exit":
         exit()
     elif inp == "help":
-        print(B + """Tools available
+        print(C + """Tools available
 
             1.Scrape Websites for words
             2.Create Local Phone Number Password Lists

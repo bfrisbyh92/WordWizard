@@ -10,11 +10,11 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def crunch():
     # Read in words from input file
-    input_file = input(B + "File of words we will crunch and change up:  ")
+    input_file = input(C + "File of words we will crunch and change up:  ")
     # Get user input for max length
     max_length = int(
-        input(B + 'Enter the maximum length for the combined words: '))
-    output_file = input(B + 'Enter the output file name: ')
+        input(C + 'Enter the maximum length for the combined words: '))
+    output_file = input(C + 'Enter the output file name: ')
 
     with open(input_file, 'r') as f:
         words = f.read().splitlines()

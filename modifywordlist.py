@@ -13,14 +13,14 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def modifywordlist():
     # Getting the needed User Inputs so they have control
-    file_path = input(B + "Enter the file path of a word list you want to alter: ")
-    suffix = input(B + "Enter charachters you want appended to word: ")
-    capitalize_choice = input(B + "Do you want to capitalize a specific characters in each word? (yes or no): ")
+    file_path = input(C + "Enter the file path of a word list you want to alter: ")
+    suffix = input(C + "Enter charachters you want appended to word: ")
+    capitalize_choice = input(C + "Do you want to capitalize a specific characters in each word? (yes or no): ")
     if capitalize_choice.lower() == 'yes':
-        capitalize_index = int(input(B + "Enter the index of the character to capitalize (starting from 0): "))
+        capitalize_index = int(input(C + "Enter the index of the character to capitalize (starting from 0): "))
     else:
         capitalize_index = None
-    output_file = input(B + "Enter the file path and name for the output file: ")
+    output_file = input(C + "Enter the file path and name for the output file: ")
 
     # Let's open the file...
     with open(file_path, 'r') as f:

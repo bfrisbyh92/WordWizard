@@ -13,8 +13,8 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 def phonenumwordlist():
     # get user input for area codes
     print(Y + "Create a wordlist specific to the targets area code/s. Best for WiFi.", Style.RESET_ALL)
-    area_codes = input(B +  "Enter area codes separated by commas: ")
-    output_file = input(B + "Output name and location:  ")
+    area_codes = input(C +  "Enter area codes separated by commas: ")
+    output_file = input(C + "Output name and location:  ")
     
     # split area codes into a list
     area_codes = [code.strip() for code in area_codes.split(',')]

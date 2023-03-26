@@ -12,9 +12,9 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def leet_transform_wordlist():
     # User inputs for wordlist and output file
-    wordlist_location = input(B +
+    wordlist_location = input(C +
         "Enter the location of the input wordlist file: ")
-    output_file_location = input(B + 
+    output_file_location = input(C + 
         "Enter the desired location/name of the output file: ")
 
     # Open the wordlist file and read the words into a list

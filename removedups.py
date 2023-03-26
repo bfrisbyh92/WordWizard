@@ -11,7 +11,7 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 
 def remove_duplicates():
-    input_file = input(B + "Enter the input file name: ")
+    input_file = input(C + "Enter the input file name: ")
 
     # Read in words from input file
     with open(input_file, 'r') as f:
