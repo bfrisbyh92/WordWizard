@@ -11,6 +11,8 @@ B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 
 def remove_duplicates():
+    print(Y + "Remove duplicates from scraped words.")
+    print(Y + "No output file, saves changes to input file.")    
     input_file = input(C + "Enter the input file name: ")
 
     # Read in words from input file

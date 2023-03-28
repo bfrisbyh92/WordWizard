@@ -15,3 +15,11 @@
 </ul>
 
 
+<p align="center">
+  <img src="assets/wordwizard.png" alt="Word Wizard">
+</p>
+<h2 align='center'>Install</h2>
+<ol align='center'>
+  <li>git clone https://github.com/bfrisbyh92/WordWizard.git</li>
+  <li>pip install requirements.txt</li>
+</ol>

@@ -12,6 +12,7 @@ Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def modifywordlist():
+    print(Y + "Common wordlist modifications. Append characters or capitalize specific index.")
     # Getting the needed User Inputs so they have control
     file_path = input(C + "Enter the file path of a word list you want to alter: ")
     suffix = input(C + "Enter charachters you want appended to word: ")

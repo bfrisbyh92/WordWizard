@@ -15,7 +15,7 @@ init(autoreset=True)
 R = Fore.RED + Style.BRIGHT + Back.BLACK
 G = Fore.GREEN + Style.BRIGHT + Back.BLACK
 C = Fore.CYAN + Style.BRIGHT + Back.BLACK
-Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
+Y = Fore.YELLOW + Style.BRIGHT 
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 banner = """
@@ -70,6 +70,8 @@ art = '''
 def passwordrecon():
     print(R + art)
     print(Y + banner)
+    print(G + "Github: https://github.com/bfrisbyh92/WordWizard")
+    print(C + ' ')
     print(C + """Tools available
           
             1.Scrape Websites for Words

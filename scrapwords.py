@@ -12,6 +12,7 @@ Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def scrapwords():
+    print(Y + "Scrape websites in order to create wordlists. Be careful selecting depths over 3-4.")
     starting_url = input(C + 'Enter the starting URL: ')
     word_length = int(input(C +
                             'Enter the word min length to search for: '))
@@ -42,7 +43,7 @@ def scrapwords():
                     
             with open(output_file, 'a') as f:
                 f.write('\n'.join(long_words) + '\n')
-                print(R + f"File written to {output_file}")
+                print(R + f"Words written to {output_file}")
                 
             links_to_crawl.extend([(link, depth+1) for link in links])
             print(Fore.GREEN + Back.BLACK +

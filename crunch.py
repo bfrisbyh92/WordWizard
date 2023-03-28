@@ -9,6 +9,7 @@ Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def crunch():
+    print(Y + "Crunch together all words under a specified max length.")
     # Read in words from input file
     input_file = input(C + "File of words we will crunch and change up:  ")
     # Get user input for max length

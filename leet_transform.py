@@ -11,6 +11,7 @@ Y = Fore.YELLOW + Style.BRIGHT + Back.BLACK
 B = Fore.BLUE + Back.BLACK + Style.BRIGHT
 
 def leet_transform_wordlist():
+    print(Y + "Make common leet transformations to words.")
     # User inputs for wordlist and output file
     wordlist_location = input(C +
         "Enter the location of the input wordlist file: ")
